@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Shrikhand&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2,
+h3 {
+  font-size: 1.6rem;
+}
+
+.page {
+  margin: auto;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+
+.shadow {
+  box-shadow: 5px 5px 10px $colour-medium-grey;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+.link_index {
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  color: black;
+  font-size: 1.2rem;
+}
